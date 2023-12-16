@@ -1,2 +1,24 @@
-
 /* Your CSS Code here. */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+h1{
+	color: blue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
